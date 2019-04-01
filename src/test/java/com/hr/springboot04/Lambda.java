@@ -4,6 +4,9 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
 
+/**
+ * 注释
+ */
 public class Lambda {
     public static void main(String[] args) {
         Person p=()-> System.out.println("萨瓦迪卡");
