@@ -1,0 +1,1938 @@
+2019/03/30-08:02:23.511 INFO [restartedMain] 
+				org.springframework.boot.StartupInfoLogger:50>>Starting Springboot04Application on LAPTOP-6CBVEC8J with PID 2172 (F:\WorkSpace\springboot04\target\classes started by steamed bun in F:\WorkSpace\springboot04)
+2019/03/30-08:02:23.556 INFO [restartedMain] 
+				org.springframework.boot.SpringApplication:675>>No active profile set, falling back to default profiles: default
+2019/03/30-08:02:23.656 INFO [restartedMain] 
+				org.springframework.boot.logging.DeferredLog:227>>Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019/03/30-08:02:23.656 INFO [restartedMain] 
+				org.springframework.boot.logging.DeferredLog:227>>For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019/03/30-08:02:25.712 WARN [restartedMain] 
+				org.mybatis.logging.Logger:44>>No MyBatis mapper was found in '[com.hr]' package. Please check your configuration.
+2019/03/30-08:02:26.495 INFO [restartedMain] 
+				org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330>>Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$863ff2be] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/03/30-08:02:27.172 INFO [restartedMain] 
+				org.springframework.boot.web.embedded.tomcat.TomcatWebServer:90>>Tomcat initialized with port(s): 8080 (http)
+2019/03/30-08:02:27.192 INFO [restartedMain] 
+				org.apache.juli.logging.DirectJDKLog:173>>Initializing ProtocolHandler ["http-nio-8080"]
+2019/03/30-08:02:27.205 INFO [restartedMain] 
+				org.apache.juli.logging.DirectJDKLog:173>>Starting service [Tomcat]
+2019/03/30-08:02:27.205 INFO [restartedMain] 
+				org.apache.juli.logging.DirectJDKLog:173>>Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019/03/30-08:02:27.214 INFO [restartedMain] 
+				org.apache.juli.logging.DirectJDKLog:173>>The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;F:\oracle\product\10.2.0\db_4\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;F:\Python27\;F:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;.;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Program Files\Java\jdk1.8.0_191\jre\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;E:\apache-maven-3.6.0\bin;F:\Git\cmd;F:\Git\mingw64\bin;F:\Git\usr\bin;C:\Users\lenovo\AppData\Local\Microsoft\WindowsApps;;.]
+2019/03/30-08:02:27.398 INFO [restartedMain] 
+				org.apache.juli.logging.DirectJDKLog:173>>Initializing Spring embedded WebApplicationContext
+2019/03/30-08:02:27.398 INFO [restartedMain] 
+				org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:296>>Root WebApplicationContext: initialization completed in 3741 ms
+2019/03/30-08:02:28.447 INFO [restartedMain] 
+				org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver:59>>Exposing 2 endpoint(s) beneath base path '/actuator'
+2019/03/30-08:02:28.668 INFO [restartedMain] 
+				org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:171>>Initializing ExecutorService 'applicationTaskExecutor'
+2019/03/30-08:02:28.743 INFO [restartedMain] 
+				org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:57>>LiveReload server is running on port 35729
+2019/03/30-08:02:28.851 WARN [restartedMain] 
+				org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:108>>Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019/03/30-08:02:29.018 INFO [restartedMain] 
+				com.zaxxer.hikari.HikariDataSource:110>>HikariPool-1 - Starting...
+2019/03/30-08:02:29.277 INFO [restartedMain] 
+				com.zaxxer.hikari.HikariDataSource:123>>HikariPool-1 - Start completed.
+2019/03/30-08:02:29.281 INFO [restartedMain] 
+				com.zengtengpeng.ui.controller.GlobalController:150>>初始化完毕
+2019/03/30-08:02:29.298 INFO [restartedMain] 
+				springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping:69>>Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019/03/30-08:02:29.557 INFO [restartedMain] 
+				springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:160>>Context refreshed
+2019/03/30-08:02:29.600 INFO [restartedMain] 
+				springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:163>>Found 1 custom documentation plugin(s)
+2019/03/30-08:02:29.640 INFO [restartedMain] 
+				springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41>>Scanning for api listing references
+2019/03/30-08:02:29.899 INFO [restartedMain] 
+				springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40>>Generating unique operation named: handleUsingGET_1
+2019/03/30-08:02:29.901 INFO [restartedMain] 
+				springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40>>Generating unique operation named: handleUsingGET_2
+2019/03/30-08:02:29.903 INFO [restartedMain] 
+				springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40>>Generating unique operation named: handleUsingGET_3
+2019/03/30-08:02:29.937 INFO [restartedMain] 
+				org.apache.juli.logging.DirectJDKLog:173>>Starting ProtocolHandler ["http-nio-8080"]
+2019/03/30-08:02:29.965 INFO [restartedMain] 
+				org.springframework.boot.web.embedded.tomcat.TomcatWebServer:204>>Tomcat started on port(s): 8080 (http) with context path ''
+2019/03/30-08:02:29.968 INFO [restartedMain] 
+				org.springframework.boot.StartupInfoLogger:59>>Started Springboot04Application in 7.414 seconds (JVM running for 9.879)
+2019/03/30-08:02:30.334 INFO [RMI TCP Connection(4)-127.0.0.1] 
+				org.apache.juli.logging.DirectJDKLog:173>>Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019/03/30-08:02:30.335 INFO [RMI TCP Connection(4)-127.0.0.1] 
+				org.springframework.web.servlet.FrameworkServlet:524>>Initializing Servlet 'dispatcherServlet'
+2019/03/30-08:02:30.347 INFO [RMI TCP Connection(4)-127.0.0.1] 
+				org.springframework.web.servlet.FrameworkServlet:546>>Completed initialization in 12 ms
+2019/03/30-08:02:36.745 ERROR [http-nio-8080-exec-1] 
+				org.apache.juli.logging.DirectJDKLog:175>>Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Handler dispatch failed; nested exception is java.lang.StackOverflowError] with root cause
+java.lang.StackOverflowError: null
+	at java.util.Arrays.copyOf(Arrays.java:3181)
+	at java.util.ArrayList.grow(ArrayList.java:265)
+	at java.util.ArrayList.ensureExplicitCapacity(ArrayList.java:239)
+	at java.util.ArrayList.ensureCapacityInternal(ArrayList.java:231)
+	at java.util.ArrayList.add(ArrayList.java:462)
+	at com.hr.controller.ItemController.cookie(ItemController.java:21)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+	at com.hr.controller.ItemController.cookie(ItemController.java:22)
+2019/03/30-08:03:41.000 INFO [Thread-21] 
+				org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:208>>Shutting down ExecutorService 'applicationTaskExecutor'
+2019/03/30-08:03:41.000 INFO [Thread-21] 
+				com.zaxxer.hikari.HikariDataSource:350>>HikariPool-1 - Shutdown initiated...
+2019/03/30-08:03:41.015 INFO [Thread-21] 
+				com.zaxxer.hikari.HikariDataSource:352>>HikariPool-1 - Shutdown completed.
+2019/03/30-08:03:45.264 INFO [restartedMain] 
+				org.springframework.boot.StartupInfoLogger:50>>Starting Springboot04Application on LAPTOP-6CBVEC8J with PID 16060 (F:\WorkSpace\springboot04\target\classes started by steamed bun in F:\WorkSpace\springboot04)
+2019/03/30-08:03:45.264 INFO [restartedMain] 
+				org.springframework.boot.SpringApplication:675>>No active profile set, falling back to default profiles: default
+2019/03/30-08:03:45.295 INFO [restartedMain] 
+				org.springframework.boot.logging.DeferredLog:227>>Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019/03/30-08:03:45.295 INFO [restartedMain] 
+				org.springframework.boot.logging.DeferredLog:227>>For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019/03/30-08:03:46.373 WARN [restartedMain] 
+				org.mybatis.logging.Logger:44>>No MyBatis mapper was found in '[com.hr]' package. Please check your configuration.
+2019/03/30-08:03:46.838 INFO [restartedMain] 
+				org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330>>Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$11f6e781] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/03/30-08:03:47.213 INFO [restartedMain] 
+				org.springframework.boot.web.embedded.tomcat.TomcatWebServer:90>>Tomcat initialized with port(s): 8080 (http)
+2019/03/30-08:03:47.245 INFO [restartedMain] 
+				org.apache.juli.logging.DirectJDKLog:173>>Initializing ProtocolHandler ["http-nio-8080"]
+2019/03/30-08:03:47.245 INFO [restartedMain] 
+				org.apache.juli.logging.DirectJDKLog:173>>Starting service [Tomcat]
+2019/03/30-08:03:47.245 INFO [restartedMain] 
+				org.apache.juli.logging.DirectJDKLog:173>>Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019/03/30-08:03:47.260 INFO [restartedMain] 
+				org.apache.juli.logging.DirectJDKLog:173>>The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;F:\oracle\product\10.2.0\db_4\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;F:\Python27\;F:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;.;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Program Files\Java\jdk1.8.0_191\jre\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;E:\apache-maven-3.6.0\bin;F:\Git\cmd;F:\Git\mingw64\bin;F:\Git\usr\bin;C:\Users\lenovo\AppData\Local\Microsoft\WindowsApps;;.]
+2019/03/30-08:03:47.385 INFO [restartedMain] 
+				org.apache.juli.logging.DirectJDKLog:173>>Initializing Spring embedded WebApplicationContext
+2019/03/30-08:03:47.385 INFO [restartedMain] 
+				org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:296>>Root WebApplicationContext: initialization completed in 2090 ms
+2019/03/30-08:03:48.276 INFO [restartedMain] 
+				org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver:59>>Exposing 2 endpoint(s) beneath base path '/actuator'
+2019/03/30-08:03:48.479 INFO [restartedMain] 
+				org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:171>>Initializing ExecutorService 'applicationTaskExecutor'
+2019/03/30-08:03:48.525 INFO [restartedMain] 
+				org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:57>>LiveReload server is running on port 35729
+2019/03/30-08:03:48.588 WARN [restartedMain] 
+				org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:108>>Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019/03/30-08:03:48.697 INFO [restartedMain] 
+				com.zaxxer.hikari.HikariDataSource:110>>HikariPool-1 - Starting...
+2019/03/30-08:03:48.854 INFO [restartedMain] 
+				com.zaxxer.hikari.HikariDataSource:123>>HikariPool-1 - Start completed.
+2019/03/30-08:03:48.854 INFO [restartedMain] 
+				com.zengtengpeng.ui.controller.GlobalController:150>>初始化完毕
+2019/03/30-08:03:48.869 INFO [restartedMain] 
+				springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping:69>>Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019/03/30-08:03:49.041 INFO [restartedMain] 
+				springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:160>>Context refreshed
+2019/03/30-08:03:49.057 INFO [restartedMain] 
+				springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:163>>Found 1 custom documentation plugin(s)
+2019/03/30-08:03:49.088 INFO [restartedMain] 
+				springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41>>Scanning for api listing references
+2019/03/30-08:03:49.213 INFO [restartedMain] 
+				springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40>>Generating unique operation named: handleUsingGET_1
+2019/03/30-08:03:49.213 INFO [restartedMain] 
+				springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40>>Generating unique operation named: handleUsingGET_2
+2019/03/30-08:03:49.213 INFO [restartedMain] 
+				springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40>>Generating unique operation named: handleUsingGET_3
+2019/03/30-08:03:49.244 INFO [restartedMain] 
+				org.apache.juli.logging.DirectJDKLog:173>>Starting ProtocolHandler ["http-nio-8080"]
+2019/03/30-08:03:49.275 INFO [restartedMain] 
+				org.springframework.boot.web.embedded.tomcat.TomcatWebServer:204>>Tomcat started on port(s): 8080 (http) with context path ''
+2019/03/30-08:03:49.275 INFO [restartedMain] 
+				org.springframework.boot.StartupInfoLogger:59>>Started Springboot04Application in 4.386 seconds (JVM running for 5.74)
+2019/03/30-08:03:49.806 INFO [RMI TCP Connection(4)-127.0.0.1] 
+				org.apache.juli.logging.DirectJDKLog:173>>Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019/03/30-08:03:49.806 INFO [RMI TCP Connection(4)-127.0.0.1] 
+				org.springframework.web.servlet.FrameworkServlet:524>>Initializing Servlet 'dispatcherServlet'
+2019/03/30-08:03:49.806 INFO [RMI TCP Connection(4)-127.0.0.1] 
+				org.springframework.web.servlet.FrameworkServlet:546>>Completed initialization in 0 ms
+2019/03/30-08:04:14.792 INFO [Thread-15] 
+				org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:208>>Shutting down ExecutorService 'applicationTaskExecutor'
+2019/03/30-08:04:14.792 INFO [Thread-15] 
+				com.zaxxer.hikari.HikariDataSource:350>>HikariPool-1 - Shutdown initiated...
+2019/03/30-08:04:14.808 INFO [Thread-15] 
+				com.zaxxer.hikari.HikariDataSource:352>>HikariPool-1 - Shutdown completed.
+2019/03/30-08:04:15.475 INFO [restartedMain] 
+				org.springframework.boot.StartupInfoLogger:50>>Starting Springboot04Application on LAPTOP-6CBVEC8J with PID 16060 (F:\WorkSpace\springboot04\target\classes started by steamed bun in F:\WorkSpace\springboot04)
+2019/03/30-08:04:15.475 INFO [restartedMain] 
+				org.springframework.boot.SpringApplication:675>>No active profile set, falling back to default profiles: default
+2019/03/30-08:04:15.932 WARN [restartedMain] 
+				org.mybatis.logging.Logger:44>>No MyBatis mapper was found in '[com.hr]' package. Please check your configuration.
+2019/03/30-08:04:16.030 INFO [restartedMain] 
+				org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330>>Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$11f6e781] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/03/30-08:04:16.148 INFO [restartedMain] 
+				org.springframework.boot.web.embedded.tomcat.TomcatWebServer:90>>Tomcat initialized with port(s): 8080 (http)
+2019/03/30-08:04:16.148 INFO [restartedMain] 
+				org.apache.juli.logging.DirectJDKLog:173>>Initializing ProtocolHandler ["http-nio-8080"]
+2019/03/30-08:04:16.148 INFO [restartedMain] 
+				org.apache.juli.logging.DirectJDKLog:173>>Starting service [Tomcat]
+2019/03/30-08:04:16.148 INFO [restartedMain] 
+				org.apache.juli.logging.DirectJDKLog:173>>Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019/03/30-08:04:16.202 INFO [restartedMain] 
+				org.apache.juli.logging.DirectJDKLog:173>>Initializing Spring embedded WebApplicationContext
+2019/03/30-08:04:16.202 INFO [restartedMain] 
+				org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:296>>Root WebApplicationContext: initialization completed in 725 ms
+2019/03/30-08:04:16.495 INFO [restartedMain] 
+				org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver:59>>Exposing 2 endpoint(s) beneath base path '/actuator'
+2019/03/30-08:04:16.573 INFO [restartedMain] 
+				org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:171>>Initializing ExecutorService 'applicationTaskExecutor'
+2019/03/30-08:04:16.588 INFO [restartedMain] 
+				org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:57>>LiveReload server is running on port 35729
+2019/03/30-08:04:16.620 WARN [restartedMain] 
+				org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:108>>Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019/03/30-08:04:16.635 INFO [restartedMain] 
+				com.zaxxer.hikari.HikariDataSource:110>>HikariPool-2 - Starting...
+2019/03/30-08:04:16.651 INFO [restartedMain] 
+				com.zaxxer.hikari.HikariDataSource:123>>HikariPool-2 - Start completed.
+2019/03/30-08:04:16.651 INFO [restartedMain] 
+				com.zengtengpeng.ui.controller.GlobalController:150>>初始化完毕
+2019/03/30-08:04:16.651 INFO [restartedMain] 
+				springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping:69>>Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019/03/30-08:04:16.729 INFO [restartedMain] 
+				springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:160>>Context refreshed
+2019/03/30-08:04:16.729 INFO [restartedMain] 
+				springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:163>>Found 1 custom documentation plugin(s)
+2019/03/30-08:04:16.738 INFO [restartedMain] 
+				springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41>>Scanning for api listing references
+2019/03/30-08:04:16.777 INFO [restartedMain] 
+				springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40>>Generating unique operation named: handleUsingGET_1
+2019/03/30-08:04:16.779 INFO [restartedMain] 
+				springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40>>Generating unique operation named: handleUsingGET_2
+2019/03/30-08:04:16.780 INFO [restartedMain] 
+				springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40>>Generating unique operation named: handleUsingGET_3
+2019/03/30-08:04:16.794 INFO [restartedMain] 
+				org.apache.juli.logging.DirectJDKLog:173>>Starting ProtocolHandler ["http-nio-8080"]
+2019/03/30-08:04:16.808 INFO [restartedMain] 
+				org.springframework.boot.web.embedded.tomcat.TomcatWebServer:204>>Tomcat started on port(s): 8080 (http) with context path ''
+2019/03/30-08:04:16.811 INFO [restartedMain] 
+				org.springframework.boot.StartupInfoLogger:59>>Started Springboot04Application in 1.377 seconds (JVM running for 33.272)
+2019/03/30-08:04:16.815 INFO [restartedMain] 
+				org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener:70>>Condition evaluation unchanged
+2019/03/30-08:04:16.994 INFO [http-nio-8080-exec-1] 
+				org.apache.juli.logging.DirectJDKLog:173>>Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019/03/30-08:04:16.995 INFO [http-nio-8080-exec-1] 
+				org.springframework.web.servlet.FrameworkServlet:524>>Initializing Servlet 'dispatcherServlet'
+2019/03/30-08:04:17.002 INFO [http-nio-8080-exec-1] 
+				org.springframework.web.servlet.FrameworkServlet:546>>Completed initialization in 7 ms
+2019/03/30-08:06:03.696 INFO [Thread-30] 
+				org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:208>>Shutting down ExecutorService 'applicationTaskExecutor'
+2019/03/30-08:06:03.696 INFO [Thread-30] 
+				com.zaxxer.hikari.HikariDataSource:350>>HikariPool-2 - Shutdown initiated...
+2019/03/30-08:06:03.696 INFO [Thread-30] 
+				com.zaxxer.hikari.HikariDataSource:352>>HikariPool-2 - Shutdown completed.
+2019/03/30-08:06:04.477 INFO [restartedMain] 
+				org.springframework.boot.StartupInfoLogger:50>>Starting Springboot04Application on LAPTOP-6CBVEC8J with PID 16060 (F:\WorkSpace\springboot04\target\classes started by steamed bun in F:\WorkSpace\springboot04)
+2019/03/30-08:06:04.477 INFO [restartedMain] 
+				org.springframework.boot.SpringApplication:675>>No active profile set, falling back to default profiles: default
+2019/03/30-08:06:04.997 WARN [restartedMain] 
+				org.mybatis.logging.Logger:44>>No MyBatis mapper was found in '[com.hr]' package. Please check your configuration.
+2019/03/30-08:06:05.091 INFO [restartedMain] 
+				org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330>>Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$11f6e781] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/03/30-08:06:05.232 INFO [restartedMain] 
+				org.springframework.boot.web.embedded.tomcat.TomcatWebServer:90>>Tomcat initialized with port(s): 8080 (http)
+2019/03/30-08:06:05.232 INFO [restartedMain] 
+				org.apache.juli.logging.DirectJDKLog:173>>Initializing ProtocolHandler ["http-nio-8080"]
+2019/03/30-08:06:05.232 INFO [restartedMain] 
+				org.apache.juli.logging.DirectJDKLog:173>>Starting service [Tomcat]
+2019/03/30-08:06:05.232 INFO [restartedMain] 
+				org.apache.juli.logging.DirectJDKLog:173>>Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019/03/30-08:06:05.279 INFO [restartedMain] 
+				org.apache.juli.logging.DirectJDKLog:173>>Initializing Spring embedded WebApplicationContext
+2019/03/30-08:06:05.279 INFO [restartedMain] 
+				org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:296>>Root WebApplicationContext: initialization completed in 802 ms
+2019/03/30-08:06:05.529 INFO [restartedMain] 
+				org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver:59>>Exposing 2 endpoint(s) beneath base path '/actuator'
+2019/03/30-08:06:05.591 INFO [restartedMain] 
+				org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:171>>Initializing ExecutorService 'applicationTaskExecutor'
+2019/03/30-08:06:05.607 INFO [restartedMain] 
+				org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:57>>LiveReload server is running on port 35729
+2019/03/30-08:06:05.638 WARN [restartedMain] 
+				org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:108>>Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019/03/30-08:06:05.669 INFO [restartedMain] 
+				com.zaxxer.hikari.HikariDataSource:110>>HikariPool-3 - Starting...
+2019/03/30-08:06:05.669 INFO [restartedMain] 
+				com.zaxxer.hikari.HikariDataSource:123>>HikariPool-3 - Start completed.
+2019/03/30-08:06:05.669 INFO [restartedMain] 
+				com.zengtengpeng.ui.controller.GlobalController:150>>初始化完毕
+2019/03/30-08:06:05.669 INFO [restartedMain] 
+				springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping:69>>Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019/03/30-08:06:05.747 INFO [restartedMain] 
+				springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:160>>Context refreshed
+2019/03/30-08:06:05.747 INFO [restartedMain] 
+				springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:163>>Found 1 custom documentation plugin(s)
+2019/03/30-08:06:05.747 INFO [restartedMain] 
+				springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41>>Scanning for api listing references
+2019/03/30-08:06:05.779 INFO [restartedMain] 
+				springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40>>Generating unique operation named: handleUsingGET_1
+2019/03/30-08:06:05.794 INFO [restartedMain] 
+				springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40>>Generating unique operation named: handleUsingGET_2
+2019/03/30-08:06:05.794 INFO [restartedMain] 
+				springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40>>Generating unique operation named: handleUsingGET_3
+2019/03/30-08:06:05.794 INFO [restartedMain] 
+				org.apache.juli.logging.DirectJDKLog:173>>Starting ProtocolHandler ["http-nio-8080"]
+2019/03/30-08:06:05.825 INFO [restartedMain] 
+				org.springframework.boot.web.embedded.tomcat.TomcatWebServer:204>>Tomcat started on port(s): 8080 (http) with context path ''
+2019/03/30-08:06:05.825 INFO [restartedMain] 
+				org.springframework.boot.StartupInfoLogger:59>>Started Springboot04Application in 1.395 seconds (JVM running for 142.29)
+2019/03/30-08:06:05.825 INFO [restartedMain] 
+				org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener:70>>Condition evaluation unchanged
+2019/03/30-08:06:33.451 INFO [restartedMain] 
+				org.springframework.boot.StartupInfoLogger:50>>Starting Springboot04Application on LAPTOP-6CBVEC8J with PID 13696 (F:\WorkSpace\springboot04\target\classes started by steamed bun in F:\WorkSpace\springboot04)
+2019/03/30-08:06:33.451 INFO [restartedMain] 
+				org.springframework.boot.SpringApplication:675>>No active profile set, falling back to default profiles: default
+2019/03/30-08:06:33.482 INFO [restartedMain] 
+				org.springframework.boot.logging.DeferredLog:227>>Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019/03/30-08:06:33.482 INFO [restartedMain] 
+				org.springframework.boot.logging.DeferredLog:227>>For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019/03/30-08:06:34.586 WARN [restartedMain] 
+				org.mybatis.logging.Logger:44>>No MyBatis mapper was found in '[com.hr]' package. Please check your configuration.
+2019/03/30-08:06:35.086 INFO [restartedMain] 
+				org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330>>Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5c583077] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/03/30-08:06:35.586 INFO [restartedMain] 
+				org.springframework.boot.web.embedded.tomcat.TomcatWebServer:90>>Tomcat initialized with port(s): 8080 (http)
+2019/03/30-08:06:35.602 INFO [restartedMain] 
+				org.apache.juli.logging.DirectJDKLog:173>>Initializing ProtocolHandler ["http-nio-8080"]
+2019/03/30-08:06:35.617 INFO [restartedMain] 
+				org.apache.juli.logging.DirectJDKLog:173>>Starting service [Tomcat]
+2019/03/30-08:06:35.617 INFO [restartedMain] 
+				org.apache.juli.logging.DirectJDKLog:173>>Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019/03/30-08:06:35.617 INFO [restartedMain] 
+				org.apache.juli.logging.DirectJDKLog:173>>The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;F:\oracle\product\10.2.0\db_4\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;F:\Python27\;F:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;.;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Program Files\Java\jdk1.8.0_191\jre\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;E:\apache-maven-3.6.0\bin;F:\Git\cmd;F:\Git\mingw64\bin;F:\Git\usr\bin;C:\Users\lenovo\AppData\Local\Microsoft\WindowsApps;;.]
+2019/03/30-08:06:35.773 INFO [restartedMain] 
+				org.apache.juli.logging.DirectJDKLog:173>>Initializing Spring embedded WebApplicationContext
+2019/03/30-08:06:35.773 INFO [restartedMain] 
+				org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:296>>Root WebApplicationContext: initialization completed in 2291 ms
+2019/03/30-08:06:36.508 INFO [restartedMain] 
+				org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver:59>>Exposing 2 endpoint(s) beneath base path '/actuator'
+2019/03/30-08:06:36.679 INFO [restartedMain] 
+				org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:171>>Initializing ExecutorService 'applicationTaskExecutor'
+2019/03/30-08:06:36.711 INFO [restartedMain] 
+				org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:57>>LiveReload server is running on port 35729
+2019/03/30-08:06:36.773 WARN [restartedMain] 
+				org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:108>>Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019/03/30-08:06:36.851 INFO [restartedMain] 
+				com.zaxxer.hikari.HikariDataSource:110>>HikariPool-1 - Starting...
+2019/03/30-08:06:36.976 INFO [restartedMain] 
+				com.zaxxer.hikari.HikariDataSource:123>>HikariPool-1 - Start completed.
+2019/03/30-08:06:36.992 INFO [restartedMain] 
+				com.zengtengpeng.ui.controller.GlobalController:150>>初始化完毕
+2019/03/30-08:06:36.992 INFO [restartedMain] 
+				springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping:69>>Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019/03/30-08:06:37.164 INFO [restartedMain] 
+				springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:160>>Context refreshed
+2019/03/30-08:06:37.179 INFO [restartedMain] 
+				springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:163>>Found 1 custom documentation plugin(s)
+2019/03/30-08:06:37.211 INFO [restartedMain] 
+				springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41>>Scanning for api listing references
+2019/03/30-08:06:37.336 INFO [restartedMain] 
+				springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40>>Generating unique operation named: handleUsingGET_1
+2019/03/30-08:06:37.351 INFO [restartedMain] 
+				springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40>>Generating unique operation named: handleUsingGET_2
+2019/03/30-08:06:37.351 INFO [restartedMain] 
+				springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40>>Generating unique operation named: handleUsingGET_3
+2019/03/30-08:06:37.367 INFO [restartedMain] 
+				org.apache.juli.logging.DirectJDKLog:173>>Starting ProtocolHandler ["http-nio-8080"]
+2019/03/30-08:06:37.382 INFO [restartedMain] 
+				org.springframework.boot.web.embedded.tomcat.TomcatWebServer:204>>Tomcat started on port(s): 8080 (http) with context path ''
+2019/03/30-08:06:37.398 INFO [restartedMain] 
+				org.springframework.boot.StartupInfoLogger:59>>Started Springboot04Application in 4.385 seconds (JVM running for 5.706)
+2019/03/30-08:06:37.461 INFO [RMI TCP Connection(6)-127.0.0.1] 
+				org.apache.juli.logging.DirectJDKLog:173>>Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019/03/30-08:06:37.461 INFO [RMI TCP Connection(6)-127.0.0.1] 
+				org.springframework.web.servlet.FrameworkServlet:524>>Initializing Servlet 'dispatcherServlet'
+2019/03/30-08:06:37.476 INFO [RMI TCP Connection(6)-127.0.0.1] 
+				org.springframework.web.servlet.FrameworkServlet:546>>Completed initialization in 15 ms
+2019/03/30-08:09:27.062 INFO [Thread-15] 
+				org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:208>>Shutting down ExecutorService 'applicationTaskExecutor'
+2019/03/30-08:09:27.062 INFO [Thread-15] 
+				com.zaxxer.hikari.HikariDataSource:350>>HikariPool-1 - Shutdown initiated...
+2019/03/30-08:09:27.062 INFO [Thread-15] 
+				com.zaxxer.hikari.HikariDataSource:352>>HikariPool-1 - Shutdown completed.
+2019/03/30-08:09:27.647 INFO [restartedMain] 
+				org.springframework.boot.StartupInfoLogger:50>>Starting Springboot04Application on LAPTOP-6CBVEC8J with PID 13696 (F:\WorkSpace\springboot04\target\classes started by steamed bun in F:\WorkSpace\springboot04)
+2019/03/30-08:09:27.647 INFO [restartedMain] 
+				org.springframework.boot.SpringApplication:675>>No active profile set, falling back to default profiles: default
+2019/03/30-08:09:28.225 WARN [restartedMain] 
+				org.mybatis.logging.Logger:44>>No MyBatis mapper was found in '[com.hr]' package. Please check your configuration.
+2019/03/30-08:09:28.334 INFO [restartedMain] 
+				org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330>>Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5c583077] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/03/30-08:09:28.451 INFO [restartedMain] 
+				org.springframework.boot.web.embedded.tomcat.TomcatWebServer:90>>Tomcat initialized with port(s): 8080 (http)
+2019/03/30-08:09:28.467 INFO [restartedMain] 
+				org.apache.juli.logging.DirectJDKLog:173>>Initializing ProtocolHandler ["http-nio-8080"]
+2019/03/30-08:09:28.467 INFO [restartedMain] 
+				org.apache.juli.logging.DirectJDKLog:173>>Starting service [Tomcat]
+2019/03/30-08:09:28.467 INFO [restartedMain] 
+				org.apache.juli.logging.DirectJDKLog:173>>Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019/03/30-08:09:28.498 INFO [restartedMain] 
+				org.apache.juli.logging.DirectJDKLog:173>>Initializing Spring embedded WebApplicationContext
+2019/03/30-08:09:28.498 INFO [restartedMain] 
+				org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:296>>Root WebApplicationContext: initialization completed in 836 ms
+2019/03/30-08:09:28.842 INFO [restartedMain] 
+				org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver:59>>Exposing 2 endpoint(s) beneath base path '/actuator'
+2019/03/30-08:09:28.920 INFO [restartedMain] 
+				org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:171>>Initializing ExecutorService 'applicationTaskExecutor'
+2019/03/30-08:09:28.920 INFO [restartedMain] 
+				org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:57>>LiveReload server is running on port 35729
+2019/03/30-08:09:28.951 WARN [restartedMain] 
+				org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:108>>Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019/03/30-08:09:28.982 INFO [restartedMain] 
+				com.zaxxer.hikari.HikariDataSource:110>>HikariPool-2 - Starting...
+2019/03/30-08:09:28.982 INFO [restartedMain] 
+				com.zaxxer.hikari.HikariDataSource:123>>HikariPool-2 - Start completed.
+2019/03/30-08:09:28.982 INFO [restartedMain] 
+				com.zengtengpeng.ui.controller.GlobalController:150>>初始化完毕
+2019/03/30-08:09:28.982 INFO [restartedMain] 
+				springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping:69>>Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019/03/30-08:09:29.060 INFO [restartedMain] 
+				springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:160>>Context refreshed
+2019/03/30-08:09:29.060 INFO [restartedMain] 
+				springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:163>>Found 1 custom documentation plugin(s)
+2019/03/30-08:09:29.060 INFO [restartedMain] 
+				springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41>>Scanning for api listing references
+2019/03/30-08:09:29.092 INFO [restartedMain] 
+				springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40>>Generating unique operation named: handleUsingGET_1
+2019/03/30-08:09:29.107 INFO [restartedMain] 
+				springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40>>Generating unique operation named: handleUsingGET_2
+2019/03/30-08:09:29.107 INFO [restartedMain] 
+				springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40>>Generating unique operation named: handleUsingGET_3
+2019/03/30-08:09:29.123 INFO [restartedMain] 
+				org.apache.juli.logging.DirectJDKLog:173>>Starting ProtocolHandler ["http-nio-8080"]
+2019/03/30-08:09:29.123 INFO [restartedMain] 
+				org.springframework.boot.web.embedded.tomcat.TomcatWebServer:204>>Tomcat started on port(s): 8080 (http) with context path ''
+2019/03/30-08:09:29.123 INFO [restartedMain] 
+				org.springframework.boot.StartupInfoLogger:59>>Started Springboot04Application in 1.507 seconds (JVM running for 177.436)
+2019/03/30-08:09:29.123 INFO [restartedMain] 
+				org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener:70>>Condition evaluation unchanged
+2019/03/30-08:13:53.555 INFO [Thread-29] 
+				org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:208>>Shutting down ExecutorService 'applicationTaskExecutor'
+2019/03/30-08:13:53.555 INFO [Thread-29] 
+				com.zaxxer.hikari.HikariDataSource:350>>HikariPool-2 - Shutdown initiated...
+2019/03/30-08:13:53.571 INFO [Thread-29] 
+				com.zaxxer.hikari.HikariDataSource:352>>HikariPool-2 - Shutdown completed.
+2019/03/30-08:13:54.487 INFO [restartedMain] 
+				org.springframework.boot.StartupInfoLogger:50>>Starting Springboot04Application on LAPTOP-6CBVEC8J with PID 13696 (F:\WorkSpace\springboot04\target\classes started by steamed bun in F:\WorkSpace\springboot04)
+2019/03/30-08:13:54.488 INFO [restartedMain] 
+				org.springframework.boot.SpringApplication:675>>No active profile set, falling back to default profiles: default
+2019/03/30-08:13:55.006 WARN [restartedMain] 
+				org.mybatis.logging.Logger:44>>No MyBatis mapper was found in '[com.hr]' package. Please check your configuration.
+2019/03/30-08:13:55.089 INFO [restartedMain] 
+				org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330>>Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5c583077] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/03/30-08:13:55.199 INFO [restartedMain] 
+				org.springframework.boot.web.embedded.tomcat.TomcatWebServer:90>>Tomcat initialized with port(s): 8080 (http)
+2019/03/30-08:13:55.199 INFO [restartedMain] 
+				org.apache.juli.logging.DirectJDKLog:173>>Initializing ProtocolHandler ["http-nio-8080"]
+2019/03/30-08:13:55.199 INFO [restartedMain] 
+				org.apache.juli.logging.DirectJDKLog:173>>Starting service [Tomcat]
+2019/03/30-08:13:55.199 INFO [restartedMain] 
+				org.apache.juli.logging.DirectJDKLog:173>>Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019/03/30-08:13:55.230 INFO [restartedMain] 
+				org.apache.juli.logging.DirectJDKLog:173>>Initializing Spring embedded WebApplicationContext
+2019/03/30-08:13:55.230 INFO [restartedMain] 
+				org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:296>>Root WebApplicationContext: initialization completed in 740 ms
+2019/03/30-08:13:55.524 INFO [restartedMain] 
+				org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver:59>>Exposing 2 endpoint(s) beneath base path '/actuator'
+2019/03/30-08:13:55.608 INFO [restartedMain] 
+				org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:171>>Initializing ExecutorService 'applicationTaskExecutor'
+2019/03/30-08:13:55.621 INFO [restartedMain] 
+				org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:57>>LiveReload server is running on port 35729
+2019/03/30-08:13:55.647 WARN [restartedMain] 
+				org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:108>>Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019/03/30-08:13:55.671 INFO [restartedMain] 
+				com.zaxxer.hikari.HikariDataSource:110>>HikariPool-3 - Starting...
+2019/03/30-08:13:55.675 INFO [restartedMain] 
+				com.zaxxer.hikari.HikariDataSource:123>>HikariPool-3 - Start completed.
+2019/03/30-08:13:55.676 INFO [restartedMain] 
+				com.zengtengpeng.ui.controller.GlobalController:150>>初始化完毕
+2019/03/30-08:13:55.682 INFO [restartedMain] 
+				springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping:69>>Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019/03/30-08:13:55.753 INFO [restartedMain] 
+				springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:160>>Context refreshed
+2019/03/30-08:13:55.753 INFO [restartedMain] 
+				springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:163>>Found 1 custom documentation plugin(s)
+2019/03/30-08:13:55.753 INFO [restartedMain] 
+				springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41>>Scanning for api listing references
+2019/03/30-08:13:55.785 INFO [restartedMain] 
+				springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40>>Generating unique operation named: handleUsingGET_1
+2019/03/30-08:13:55.785 INFO [restartedMain] 
+				springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40>>Generating unique operation named: handleUsingGET_2
+2019/03/30-08:13:55.785 INFO [restartedMain] 
+				springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40>>Generating unique operation named: handleUsingGET_3
+2019/03/30-08:13:55.800 INFO [restartedMain] 
+				org.apache.juli.logging.DirectJDKLog:173>>Starting ProtocolHandler ["http-nio-8080"]
+2019/03/30-08:13:55.800 INFO [restartedMain] 
+				org.springframework.boot.web.embedded.tomcat.TomcatWebServer:204>>Tomcat started on port(s): 8080 (http) with context path ''
+2019/03/30-08:13:55.800 INFO [restartedMain] 
+				org.springframework.boot.StartupInfoLogger:59>>Started Springboot04Application in 1.392 seconds (JVM running for 444.116)
+2019/03/30-08:13:55.800 INFO [restartedMain] 
+				org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener:70>>Condition evaluation unchanged
+2019/03/30-08:13:56.374 INFO [http-nio-8080-exec-1] 
+				org.apache.juli.logging.DirectJDKLog:173>>Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019/03/30-08:13:56.375 INFO [http-nio-8080-exec-1] 
+				org.springframework.web.servlet.FrameworkServlet:524>>Initializing Servlet 'dispatcherServlet'
+2019/03/30-08:13:56.383 INFO [http-nio-8080-exec-1] 
+				org.springframework.web.servlet.FrameworkServlet:546>>Completed initialization in 7 ms
+2019/03/30-08:16:20.595 INFO [Thread-37] 
+				org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:208>>Shutting down ExecutorService 'applicationTaskExecutor'
+2019/03/30-08:16:20.595 INFO [Thread-37] 
+				com.zaxxer.hikari.HikariDataSource:350>>HikariPool-3 - Shutdown initiated...
+2019/03/30-08:16:20.595 INFO [Thread-37] 
+				com.zaxxer.hikari.HikariDataSource:352>>HikariPool-3 - Shutdown completed.
+2019/03/30-08:16:21.251 INFO [restartedMain] 
+				org.springframework.boot.StartupInfoLogger:50>>Starting Springboot04Application on LAPTOP-6CBVEC8J with PID 13696 (F:\WorkSpace\springboot04\target\classes started by steamed bun in F:\WorkSpace\springboot04)
+2019/03/30-08:16:21.251 INFO [restartedMain] 
+				org.springframework.boot.SpringApplication:675>>No active profile set, falling back to default profiles: default
+2019/03/30-08:16:21.954 WARN [restartedMain] 
+				org.mybatis.logging.Logger:44>>No MyBatis mapper was found in '[com.hr]' package. Please check your configuration.
+2019/03/30-08:16:22.157 INFO [restartedMain] 
+				org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330>>Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5c583077] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/03/30-08:16:22.345 INFO [restartedMain] 
+				org.springframework.boot.web.embedded.tomcat.TomcatWebServer:90>>Tomcat initialized with port(s): 8080 (http)
+2019/03/30-08:16:22.345 INFO [restartedMain] 
+				org.apache.juli.logging.DirectJDKLog:173>>Initializing ProtocolHandler ["http-nio-8080"]
+2019/03/30-08:16:22.345 INFO [restartedMain] 
+				org.apache.juli.logging.DirectJDKLog:173>>Starting service [Tomcat]
+2019/03/30-08:16:22.345 INFO [restartedMain] 
+				org.apache.juli.logging.DirectJDKLog:173>>Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019/03/30-08:16:22.392 INFO [restartedMain] 
+				org.apache.juli.logging.DirectJDKLog:173>>Initializing Spring embedded WebApplicationContext
+2019/03/30-08:16:22.392 INFO [restartedMain] 
+				org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:296>>Root WebApplicationContext: initialization completed in 1141 ms
+2019/03/30-08:16:22.767 INFO [restartedMain] 
+				org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver:59>>Exposing 2 endpoint(s) beneath base path '/actuator'
+2019/03/30-08:16:22.829 INFO [restartedMain] 
+				org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:171>>Initializing ExecutorService 'applicationTaskExecutor'
+2019/03/30-08:16:22.845 INFO [restartedMain] 
+				org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:57>>LiveReload server is running on port 35729
+2019/03/30-08:16:22.876 WARN [restartedMain] 
+				org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:108>>Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019/03/30-08:16:22.892 INFO [restartedMain] 
+				com.zaxxer.hikari.HikariDataSource:110>>HikariPool-4 - Starting...
+2019/03/30-08:16:22.892 INFO [restartedMain] 
+				com.zaxxer.hikari.HikariDataSource:123>>HikariPool-4 - Start completed.
+2019/03/30-08:16:22.892 INFO [restartedMain] 
+				com.zengtengpeng.ui.controller.GlobalController:150>>初始化完毕
+2019/03/30-08:16:22.907 INFO [restartedMain] 
+				springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping:69>>Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019/03/30-08:16:22.954 INFO [restartedMain] 
+				springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:160>>Context refreshed
+2019/03/30-08:16:22.954 INFO [restartedMain] 
+				springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:163>>Found 1 custom documentation plugin(s)
+2019/03/30-08:16:22.970 INFO [restartedMain] 
+				springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41>>Scanning for api listing references
+2019/03/30-08:16:22.985 INFO [restartedMain] 
+				springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40>>Generating unique operation named: handleUsingGET_1
+2019/03/30-08:16:22.985 INFO [restartedMain] 
+				springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40>>Generating unique operation named: handleUsingGET_2
+2019/03/30-08:16:22.985 INFO [restartedMain] 
+				springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40>>Generating unique operation named: handleUsingGET_3
+2019/03/30-08:16:23.001 INFO [restartedMain] 
+				org.apache.juli.logging.DirectJDKLog:173>>Starting ProtocolHandler ["http-nio-8080"]
+2019/03/30-08:16:23.001 INFO [restartedMain] 
+				org.springframework.boot.web.embedded.tomcat.TomcatWebServer:204>>Tomcat started on port(s): 8080 (http) with context path ''
+2019/03/30-08:16:23.001 INFO [restartedMain] 
+				org.springframework.boot.StartupInfoLogger:59>>Started Springboot04Application in 1.812 seconds (JVM running for 591.32)
+2019/03/30-08:16:23.017 INFO [restartedMain] 
+				org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener:70>>Condition evaluation unchanged
+2019/03/30-08:16:26.391 INFO [Thread-45] 
+				org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:208>>Shutting down ExecutorService 'applicationTaskExecutor'
+2019/03/30-08:16:26.391 INFO [Thread-45] 
+				com.zaxxer.hikari.HikariDataSource:350>>HikariPool-4 - Shutdown initiated...
+2019/03/30-08:16:26.391 INFO [Thread-45] 
+				com.zaxxer.hikari.HikariDataSource:352>>HikariPool-4 - Shutdown completed.
+2019/03/30-08:16:27.202 INFO [restartedMain] 
+				org.springframework.boot.StartupInfoLogger:50>>Starting Springboot04Application on LAPTOP-6CBVEC8J with PID 13696 (F:\WorkSpace\springboot04\target\classes started by steamed bun in F:\WorkSpace\springboot04)
+2019/03/30-08:16:27.202 INFO [restartedMain] 
+				org.springframework.boot.SpringApplication:675>>No active profile set, falling back to default profiles: default
+2019/03/30-08:16:27.593 WARN [restartedMain] 
+				org.mybatis.logging.Logger:44>>No MyBatis mapper was found in '[com.hr]' package. Please check your configuration.
+2019/03/30-08:16:27.671 INFO [restartedMain] 
+				org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330>>Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5c583077] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/03/30-08:16:27.780 INFO [restartedMain] 
+				org.springframework.boot.web.embedded.tomcat.TomcatWebServer:90>>Tomcat initialized with port(s): 8080 (http)
+2019/03/30-08:16:27.780 INFO [restartedMain] 
+				org.apache.juli.logging.DirectJDKLog:173>>Initializing ProtocolHandler ["http-nio-8080"]
+2019/03/30-08:16:27.780 INFO [restartedMain] 
+				org.apache.juli.logging.DirectJDKLog:173>>Starting service [Tomcat]
+2019/03/30-08:16:27.780 INFO [restartedMain] 
+				org.apache.juli.logging.DirectJDKLog:173>>Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019/03/30-08:16:27.827 INFO [restartedMain] 
+				org.apache.juli.logging.DirectJDKLog:173>>Initializing Spring embedded WebApplicationContext
+2019/03/30-08:16:27.827 INFO [restartedMain] 
+				org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:296>>Root WebApplicationContext: initialization completed in 625 ms
+2019/03/30-08:16:28.117 INFO [restartedMain] 
+				org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver:59>>Exposing 2 endpoint(s) beneath base path '/actuator'
+2019/03/30-08:16:28.206 INFO [restartedMain] 
+				org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:171>>Initializing ExecutorService 'applicationTaskExecutor'
+2019/03/30-08:16:28.220 INFO [restartedMain] 
+				org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:57>>LiveReload server is running on port 35729
+2019/03/30-08:16:28.246 WARN [restartedMain] 
+				org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:108>>Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019/03/30-08:16:28.279 INFO [restartedMain] 
+				com.zaxxer.hikari.HikariDataSource:110>>HikariPool-5 - Starting...
+2019/03/30-08:16:28.283 INFO [restartedMain] 
+				com.zaxxer.hikari.HikariDataSource:123>>HikariPool-5 - Start completed.
+2019/03/30-08:16:28.284 INFO [restartedMain] 
+				com.zengtengpeng.ui.controller.GlobalController:150>>初始化完毕
+2019/03/30-08:16:28.291 INFO [restartedMain] 
+				springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping:69>>Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019/03/30-08:16:28.363 INFO [restartedMain] 
+				springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:160>>Context refreshed
+2019/03/30-08:16:28.365 INFO [restartedMain] 
+				springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:163>>Found 1 custom documentation plugin(s)
+2019/03/30-08:16:28.369 INFO [restartedMain] 
+				springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41>>Scanning for api listing references
+2019/03/30-08:16:28.404 INFO [restartedMain] 
+				springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40>>Generating unique operation named: handleUsingGET_1
+2019/03/30-08:16:28.405 INFO [restartedMain] 
+				springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40>>Generating unique operation named: handleUsingGET_2
+2019/03/30-08:16:28.406 INFO [restartedMain] 
+				springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40>>Generating unique operation named: handleUsingGET_3
+2019/03/30-08:16:28.420 INFO [restartedMain] 
+				org.apache.juli.logging.DirectJDKLog:173>>Starting ProtocolHandler ["http-nio-8080"]
+2019/03/30-08:16:28.423 INFO [restartedMain] 
+				org.springframework.boot.web.embedded.tomcat.TomcatWebServer:204>>Tomcat started on port(s): 8080 (http) with context path ''
+2019/03/30-08:16:28.424 INFO [restartedMain] 
+				org.springframework.boot.StartupInfoLogger:59>>Started Springboot04Application in 1.253 seconds (JVM running for 596.729)
+2019/03/30-08:16:28.428 INFO [restartedMain] 
+				org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener:70>>Condition evaluation unchanged
+2019/03/30-08:16:28.449 INFO [http-nio-8080-exec-1] 
+				org.apache.juli.logging.DirectJDKLog:173>>Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019/03/30-08:16:28.450 INFO [http-nio-8080-exec-1] 
+				org.springframework.web.servlet.FrameworkServlet:524>>Initializing Servlet 'dispatcherServlet'
+2019/03/30-08:16:28.456 INFO [http-nio-8080-exec-1] 
+				org.springframework.web.servlet.FrameworkServlet:546>>Completed initialization in 6 ms
+2019/03/30-08:17:39.812 ERROR [http-nio-8080-exec-2] 
+				org.apache.juli.logging.DirectJDKLog:175>>Servlet.service() for servlet [autoCodeUiServlet] in context with path [] threw exception
+java.lang.RuntimeException: java.lang.NullPointerException
+	at com.zengtengpeng.ui.servlet.AutoCodeUiServlet.service(AutoCodeUiServlet.java:68)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:117)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:106)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NullPointerException: null
+	at com.zengtengpeng.ui.servlet.AutoCodeUiServlet.service(AutoCodeUiServlet.java:58)
+	... 47 common frames omitted
+2019/03/30-08:17:47.946 ERROR [http-nio-8080-exec-3] 
+				org.apache.juli.logging.DirectJDKLog:175>>Servlet.service() for servlet [autoCodeUiServlet] in context with path [] threw exception
+java.lang.RuntimeException: java.lang.NullPointerException
+	at com.zengtengpeng.ui.servlet.AutoCodeUiServlet.service(AutoCodeUiServlet.java:68)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:117)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:106)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NullPointerException: null
+	at com.zengtengpeng.ui.servlet.AutoCodeUiServlet.service(AutoCodeUiServlet.java:58)
+	... 47 common frames omitted
+2019/03/30-08:18:38.332 INFO [http-nio-8080-exec-7] 
+				com.zengtengpeng.jdbc.utils.JDBCUtils:108>>解析表-tb_item_cat->商品类目
+2019/03/30-08:18:49.855 INFO [http-nio-8080-exec-9] 
+				com.zengtengpeng.jdbc.utils.JDBCUtils:108>>解析表-tb_item->商品表
+2019/03/30-08:18:52.783 ERROR [http-nio-8080-exec-3] 
+				org.apache.juli.logging.DirectJDKLog:175>>Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.RuntimeException: java.lang.NullPointerException] with root cause
+java.lang.NullPointerException: null
+	at com.zengtengpeng.ui.utils.RequestUtils.lambda$packBeanColumn$0(RequestUtils.java:20)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at com.zengtengpeng.ui.utils.RequestUtils.packBeanColumn(RequestUtils.java:13)
+	at com.zengtengpeng.ui.controller.RelationController.buildSimple(RelationController.java:112)
+	at com.zengtengpeng.ui.controller.RelationController.buildOneToMany(RelationController.java:69)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:117)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:106)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019/03/30-08:25:45.537 INFO [Thread-53] 
+				org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:208>>Shutting down ExecutorService 'applicationTaskExecutor'
+2019/03/30-08:25:45.538 INFO [Thread-53] 
+				com.zaxxer.hikari.HikariDataSource:350>>HikariPool-5 - Shutdown initiated...
+2019/03/30-08:25:45.544 INFO [Thread-53] 
+				com.zaxxer.hikari.HikariDataSource:352>>HikariPool-5 - Shutdown completed.
+2019/03/30-08:25:46.224 INFO [restartedMain] 
+				org.springframework.boot.StartupInfoLogger:50>>Starting Springboot04Application on LAPTOP-6CBVEC8J with PID 13696 (F:\WorkSpace\springboot04\target\classes started by steamed bun in F:\WorkSpace\springboot04)
+2019/03/30-08:25:46.224 INFO [restartedMain] 
+				org.springframework.boot.SpringApplication:675>>No active profile set, falling back to default profiles: default
+2019/03/30-08:25:46.994 WARN [restartedMain] 
+				org.mybatis.logging.Logger:44>>No MyBatis mapper was found in '[com.hr]' package. Please check your configuration.
+2019/03/30-08:25:47.099 INFO [restartedMain] 
+				org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330>>Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5c583077] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/03/30-08:25:47.239 INFO [restartedMain] 
+				org.springframework.boot.web.embedded.tomcat.TomcatWebServer:90>>Tomcat initialized with port(s): 8080 (http)
+2019/03/30-08:25:47.240 INFO [restartedMain] 
+				org.apache.juli.logging.DirectJDKLog:173>>Initializing ProtocolHandler ["http-nio-8080"]
+2019/03/30-08:25:47.241 INFO [restartedMain] 
+				org.apache.juli.logging.DirectJDKLog:173>>Starting service [Tomcat]
+2019/03/30-08:25:47.241 INFO [restartedMain] 
+				org.apache.juli.logging.DirectJDKLog:173>>Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019/03/30-08:25:47.280 INFO [restartedMain] 
+				org.apache.juli.logging.DirectJDKLog:173>>Initializing Spring embedded WebApplicationContext
+2019/03/30-08:25:47.281 INFO [restartedMain] 
+				org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:296>>Root WebApplicationContext: initialization completed in 1056 ms
+2019/03/30-08:25:47.590 INFO [restartedMain] 
+				org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver:59>>Exposing 2 endpoint(s) beneath base path '/actuator'
+2019/03/30-08:25:47.669 INFO [restartedMain] 
+				org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:171>>Initializing ExecutorService 'applicationTaskExecutor'
+2019/03/30-08:25:47.680 INFO [restartedMain] 
+				org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:57>>LiveReload server is running on port 35729
+2019/03/30-08:25:47.706 WARN [restartedMain] 
+				org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:108>>Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019/03/30-08:25:47.736 INFO [restartedMain] 
+				com.zaxxer.hikari.HikariDataSource:110>>HikariPool-6 - Starting...
+2019/03/30-08:25:47.740 INFO [restartedMain] 
+				com.zaxxer.hikari.HikariDataSource:123>>HikariPool-6 - Start completed.
+2019/03/30-08:25:47.740 INFO [restartedMain] 
+				com.zengtengpeng.ui.controller.GlobalController:150>>初始化完毕
+2019/03/30-08:25:47.747 INFO [restartedMain] 
+				springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping:69>>Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019/03/30-08:25:47.822 INFO [restartedMain] 
+				springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:160>>Context refreshed
+2019/03/30-08:25:47.823 INFO [restartedMain] 
+				springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:163>>Found 1 custom documentation plugin(s)
+2019/03/30-08:25:47.827 INFO [restartedMain] 
+				springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41>>Scanning for api listing references
+2019/03/30-08:25:47.855 INFO [restartedMain] 
+				springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40>>Generating unique operation named: handleUsingGET_1
+2019/03/30-08:25:47.857 INFO [restartedMain] 
+				springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40>>Generating unique operation named: handleUsingGET_2
+2019/03/30-08:25:47.858 INFO [restartedMain] 
+				springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40>>Generating unique operation named: handleUsingGET_3
+2019/03/30-08:25:47.870 INFO [restartedMain] 
+				org.apache.juli.logging.DirectJDKLog:173>>Starting ProtocolHandler ["http-nio-8080"]
+2019/03/30-08:25:47.875 INFO [restartedMain] 
+				org.springframework.boot.web.embedded.tomcat.TomcatWebServer:204>>Tomcat started on port(s): 8080 (http) with context path ''
+2019/03/30-08:25:47.877 INFO [restartedMain] 
+				org.springframework.boot.StartupInfoLogger:59>>Started Springboot04Application in 1.687 seconds (JVM running for 1156.183)
+2019/03/30-08:25:47.883 INFO [restartedMain] 
+				org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener:70>>Condition evaluation unchanged
+2019/03/30-08:25:54.355 INFO [http-nio-8080-exec-10] 
+				org.apache.juli.logging.DirectJDKLog:173>>Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019/03/30-08:25:54.355 INFO [http-nio-8080-exec-10] 
+				org.springframework.web.servlet.FrameworkServlet:524>>Initializing Servlet 'dispatcherServlet'
+2019/03/30-08:25:54.362 INFO [http-nio-8080-exec-10] 
+				org.springframework.web.servlet.FrameworkServlet:546>>Completed initialization in 6 ms
+2019/03/30-08:26:05.829 INFO [restartedMain] 
+				org.springframework.boot.StartupInfoLogger:50>>Starting Springboot04Application on LAPTOP-6CBVEC8J with PID 2340 (F:\WorkSpace\springboot04\target\classes started by steamed bun in F:\WorkSpace\springboot04)
+2019/03/30-08:26:05.829 INFO [restartedMain] 
+				org.springframework.boot.SpringApplication:675>>No active profile set, falling back to default profiles: default
+2019/03/30-08:26:05.876 INFO [restartedMain] 
+				org.springframework.boot.logging.DeferredLog:227>>Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019/03/30-08:26:05.876 INFO [restartedMain] 
+				org.springframework.boot.logging.DeferredLog:227>>For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019/03/30-08:26:06.999 WARN [restartedMain] 
+				org.mybatis.logging.Logger:44>>No MyBatis mapper was found in '[com.hr]' package. Please check your configuration.
+2019/03/30-08:26:07.467 INFO [restartedMain] 
+				org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330>>Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$74c2ac45] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/03/30-08:26:07.858 INFO [restartedMain] 
+				org.springframework.boot.web.embedded.tomcat.TomcatWebServer:90>>Tomcat initialized with port(s): 8080 (http)
+2019/03/30-08:26:07.873 INFO [restartedMain] 
+				org.apache.juli.logging.DirectJDKLog:173>>Initializing ProtocolHandler ["http-nio-8080"]
+2019/03/30-08:26:07.889 INFO [restartedMain] 
+				org.apache.juli.logging.DirectJDKLog:173>>Starting service [Tomcat]
+2019/03/30-08:26:07.889 INFO [restartedMain] 
+				org.apache.juli.logging.DirectJDKLog:173>>Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019/03/30-08:26:07.905 INFO [restartedMain] 
+				org.apache.juli.logging.DirectJDKLog:173>>The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;F:\oracle\product\10.2.0\db_4\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;F:\Python27\;F:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;.;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Program Files\Java\jdk1.8.0_191\jre\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;E:\apache-maven-3.6.0\bin;F:\Git\cmd;F:\Git\mingw64\bin;F:\Git\usr\bin;C:\Users\lenovo\AppData\Local\Microsoft\WindowsApps;;.]
+2019/03/30-08:26:08.155 INFO [restartedMain] 
+				org.apache.juli.logging.DirectJDKLog:173>>Initializing Spring embedded WebApplicationContext
+2019/03/30-08:26:08.155 INFO [restartedMain] 
+				org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext:296>>Root WebApplicationContext: initialization completed in 2279 ms
+2019/03/30-08:26:08.920 INFO [restartedMain] 
+				org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver:59>>Exposing 2 endpoint(s) beneath base path '/actuator'
+2019/03/30-08:26:09.076 INFO [restartedMain] 
+				org.springframework.scheduling.concurrent.ExecutorConfigurationSupport:171>>Initializing ExecutorService 'applicationTaskExecutor'
+2019/03/30-08:26:09.108 INFO [restartedMain] 
+				org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer:57>>LiveReload server is running on port 35729
+2019/03/30-08:26:09.154 WARN [restartedMain] 
+				org.springframework.boot.autoconfigure.thymeleaf.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration:108>>Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2019/03/30-08:26:09.248 INFO [restartedMain] 
+				com.zaxxer.hikari.HikariDataSource:110>>HikariPool-1 - Starting...
+2019/03/30-08:26:09.389 INFO [restartedMain] 
+				com.zaxxer.hikari.HikariDataSource:123>>HikariPool-1 - Start completed.
+2019/03/30-08:26:09.389 INFO [restartedMain] 
+				com.zengtengpeng.ui.controller.GlobalController:150>>初始化完毕
+2019/03/30-08:26:09.404 INFO [restartedMain] 
+				springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping:69>>Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019/03/30-08:26:09.576 INFO [restartedMain] 
+				springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:160>>Context refreshed
+2019/03/30-08:26:09.576 INFO [restartedMain] 
+				springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper:163>>Found 1 custom documentation plugin(s)
+2019/03/30-08:26:09.607 INFO [restartedMain] 
+				springfox.documentation.spring.web.scanners.ApiListingReferenceScanner:41>>Scanning for api listing references
+2019/03/30-08:26:09.748 INFO [restartedMain] 
+				springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40>>Generating unique operation named: handleUsingGET_1
+2019/03/30-08:26:09.748 INFO [restartedMain] 
+				springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40>>Generating unique operation named: handleUsingGET_2
+2019/03/30-08:26:09.748 INFO [restartedMain] 
+				springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator:40>>Generating unique operation named: handleUsingGET_3
+2019/03/30-08:26:09.779 INFO [restartedMain] 
+				org.apache.juli.logging.DirectJDKLog:173>>Starting ProtocolHandler ["http-nio-8080"]
+2019/03/30-08:26:09.795 INFO [restartedMain] 
+				org.springframework.boot.web.embedded.tomcat.TomcatWebServer:204>>Tomcat started on port(s): 8080 (http) with context path ''
+2019/03/30-08:26:09.795 INFO [restartedMain] 
+				org.springframework.boot.StartupInfoLogger:59>>Started Springboot04Application in 4.372 seconds (JVM running for 5.818)
+2019/03/30-08:26:10.330 INFO [RMI TCP Connection(4)-127.0.0.1] 
+				org.apache.juli.logging.DirectJDKLog:173>>Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019/03/30-08:26:10.330 INFO [RMI TCP Connection(4)-127.0.0.1] 
+				org.springframework.web.servlet.FrameworkServlet:524>>Initializing Servlet 'dispatcherServlet'
+2019/03/30-08:26:10.330 INFO [RMI TCP Connection(4)-127.0.0.1] 
+				org.springframework.web.servlet.FrameworkServlet:546>>Completed initialization in 0 ms
